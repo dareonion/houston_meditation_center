@@ -19,7 +19,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x] # Test against multiple Node.js versions (optional)
+        node-version: [23.x] # Test against multiple Node.js versions (optional)
 
     steps:
       # 1. Checkout Repository
